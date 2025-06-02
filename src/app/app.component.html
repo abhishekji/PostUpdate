@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <router-outlet></router-outlet>
+
+      <!-- <div>
+        <p class="input-field"> Enter the value of the element:   </p>
+        <input type="text" placeholder="please enter the value" id="textValue" #elem> <br/>
+        <button (click)="addValue(elem)"> Submit </button>
+        <ul>
+          <li *ngFor = "let elem1 of list; let i= index"> 
+            <input type="text" id="listElemText" value={{list[i].value}} *ngIf="elem1.showText; else doNotShowText">&nbsp; &nbsp;
+            <ng-template #doNotShowText>
+              <p [innerHTML]="elem1.value"></p>&nbsp; &nbsp;
+            </ng-template>
+            <button (click)="switchOptions(elem1)"> Edit </button> &nbsp;&nbsp;
+            <button (click)="submitValue(i)">Submit </button>
+            <button (click)="deleteValue(i)"> Delete </button>
+          </li>
+        </ul>
+      </div> -->
+      <!-- <button (click)="checkChange()"> click me</button>
+      <div>{{title}}</div>
+      <div>{{(objAction | async).id}}</div> -->
+
+      <!-- <app-child [value] ="objAction" [title]="title"></app-child> -->
+    </div>
+  </div>
+</div>
